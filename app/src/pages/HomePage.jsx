@@ -2,7 +2,7 @@ import { Spin } from "antd";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPosts } from "../features/posts/postSlice";
-import PostCard from "../components/PostCard";
+import PostCard from "../components/postCard";
 import { STATUS } from "../constants";
 
 const HomePage = () => {
